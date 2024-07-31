@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-oe9sr^3-zx&_f26!jlsozgvve9w0@(%e2=$djc22ah6&*#i9i&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["8000-l09224-blog-ejyxdqeolal.ws-eu115.gitpod.io", ".herokuapp.com" ]
+ALLOWED_HOSTS = [".gitpod.io", ".herokuapp.com" ]
 
 
 # Application definition
@@ -92,7 +92,8 @@ DATABASES = {
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
-    "https://*.gitpod.io"
+    "https://*.gitpod.io",
+    "https://*.codeinstitute-ide.net"
 ]
 
 #The above trusted origins might require a connection to gitpod?
